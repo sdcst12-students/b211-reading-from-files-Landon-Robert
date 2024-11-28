@@ -13,9 +13,9 @@ Create a function that reads the specific value for a specific level and an armo
 """
 mylist = open('task04.txt', 'r').read().split()
 results = []
-while (len(mylist) > 21):
+while (len(mylist) > int(21*4/3)):
     results.append(mylist[0:0+21])
-    del mylist[0:0]
+    del mylist[0:0+21]
     del mylist[0:0]
 
 print(results)

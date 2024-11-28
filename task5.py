@@ -1,5 +1,5 @@
 """
-Read the data from the file task02.csv
+Read the data from the file task5.csv
 Allow the user to search for a stock symbol.
 If the stock symbol is found, display the name of the company
 If a multiple stocks match the symbol, say there are multiple stocks available

@@ -14,7 +14,6 @@ Flag may be:
 filename = 'data01.txt'
 file = open(filename,'r')
 
-
 '''
 Note that if you determine the type of the file, it is not the standard
 variable types that we have seen before.
